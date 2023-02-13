@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/captains-dine-resturant/static/css/main.6c606698.css",
+    "main.js": "/captains-dine-resturant/static/js/main.f42c98db.js",
+    "static/media/hero1.jpg": "/captains-dine-resturant/static/media/hero1.85e3f14aa72d8ac5b8dd.jpg",
+    "index.html": "/captains-dine-resturant/index.html",
+    "main.6c606698.css.map": "/captains-dine-resturant/static/css/main.6c606698.css.map",
+    "main.f42c98db.js.map": "/captains-dine-resturant/static/js/main.f42c98db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c606698.css",
+    "static/js/main.f42c98db.js"
+  ]
+}
