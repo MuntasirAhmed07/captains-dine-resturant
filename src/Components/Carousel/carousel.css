@@ -1,0 +1,19 @@
+#border {
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  margin: 8rem 0;
+}
+
+.image_wrapper {
+  margin: 15vh 5rem;
+  overflow: hidden;
+}
+
+.image_wrapper img {
+  width: 100%;
+}
+
+.img-size {
+  height: 60.882800608828006vh;
+  width: 58.565153733528554vw;
+}

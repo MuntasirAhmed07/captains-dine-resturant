@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "items": "Kulfi",
+    "prices": "147/-",
+    "cuisin": "Indian",
+    "category": "Dessert"
+  },
+  {
+    "id": 2,
+    "items": "Kulfi",
+    "prices": "147/-",
+    "cuisin": "Indian",
+    "category": "Dessert"
+  },
+  {
+    "id": 3,
+    "items": "Kulfi",
+    "prices": "147/-",
+    "cuisin": "Indian",
+    "category": "Dessert"
+  },
+  {
+    "id": 4,
+    "items": "Kulfi",
+    "prices": "147/-",
+    "cuisin": "Indian",
+    "category": "Dessert"
+  }
+]

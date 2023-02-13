@@ -1,0 +1,27 @@
+#title {
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+#title2 {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+}
+
+.article-container {
+  text-align: left;
+  margin: 2rem auto 5rem;
+  width: 86vw;
+}
+
+article p {
+  margin: 2rem 1rem;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6vw;
+  margin-bottom: 3rem;
+}

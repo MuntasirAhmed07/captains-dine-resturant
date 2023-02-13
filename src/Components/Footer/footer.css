@@ -1,0 +1,48 @@
+footer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 0;
+  text-decoration: none;
+}
+
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content {
+  margin: 2rem;
+  line-height: 1.5;
+  height: 6rem;
+}
+
+.btn {
+  background-color: #f09f45;
+  height: 50px;
+  width: 50%;
+  padding: 1.1rem;
+  margin: auto;
+  color: white;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+}
+
+
+.socials {
+  display: flex;
+}
+
+.socials a{
+  margin-left: 8px;
+}
+
