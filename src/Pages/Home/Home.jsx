@@ -1,6 +1,7 @@
-import Hero from "../../Assets/images/hero1.jpg";
+import Hero from "../../Assets/images/six.png";
 import Carousel from "../../Components/Carousel/Carousel";
 import "./home.css";
+import SVGT from "./svgtext";
 
 const Home = () => {
   return (
@@ -13,6 +14,10 @@ const Home = () => {
           <h1>Captain America</h1>
           <h2>Touching Your Heart</h2>
         </div> */}
+        <div>
+        <SVGT />
+
+        </div>
       </div>
       <div className="car-line">
         <Carousel />
