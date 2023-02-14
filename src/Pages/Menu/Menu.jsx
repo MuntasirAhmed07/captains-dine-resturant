@@ -1,77 +1,49 @@
 import React from "react";
-import IndianDessert from "../../Components/Menu_Card/IndianDessertCard/IndianDessert";
-import ThaiSalad from "../../Components/Menu_Card/ThaiSalad/ThaiSalad";
-import "./menu.css";
 import indianDesserts, {
-  thaiSalads,
-  thaiAppetizers,
-  thaiSoups,
-  thaiNoodles,
-  thaiRices,
-  thaiBeefs,
-  thaiPrawns,
-  thaiKingPrawns,
-  thaiChickens,
-  thaiCrabs,
-  thaiVegetables,
-  indianAppetizers,
-  indianPapadams,
-  indianPaneers,
-  indianSalads,
-  indianSeafoods,
-  indianBiriyanis,
-  indianPulaos,
-  indianCurrys,
-  indianCurryMuttons,
-  indianCurryBeefs,
-  indianCurryPrawns,
-  indianCurryPomfrets,
-  indianCurryDals,
-  indianCurryVegetables,
-  indianDosas,
-  indianFuchkas,
-  indianNaans,
-  indianKebabs,
-  captainsDineSpecials,
-  indianPizzas,
-  indianBroastChickens,
-  indianBurgers,
   broastBeverageOnes,
-  broastBeverageTwos,
-  setMenus,
-  specialMenus
+  broastBeverageTwos, captainsDineSpecials, indianAppetizers, indianBiriyanis, indianBroastChickens,
+  indianBurgers, indianCurryBeefs, indianCurryDals, indianCurryMuttons, indianCurryPomfrets, indianCurryPrawns, indianCurrys, indianCurryVegetables,
+  indianDosas,
+  indianFuchkas, indianKebabs, indianNaans, indianPaneers, indianPapadams, indianPizzas, indianPulaos, indianSalads,
+  indianSeafoods, setMenus,
+  specialMenus, thaiAppetizers, thaiBeefs, thaiChickens,
+  thaiCrabs, thaiKingPrawns, thaiNoodles, thaiPrawns, thaiRices, thaiSalads, thaiSoups, thaiVegetables
 } from "../../Assets/Menu-Data/menuX";
-import ThaiAppetizers from "../../Components/Menu_Card/ThaiAppetizers/ThaiAppetizers";
-import ThaiSoup from "../../Components/Menu_Card/ThaiSoup/ThaiSoup";
-import ThaiNoodles from "../../Components/Menu_Card/ThaiNoodle&Rice/ThaiNoodle";
-import ThaiBeef from "../../Components/Menu_Card/ThaiBeef&Prawn/ThaiBeef&Prawn";
-import ThaiKingPrawn from "../../Components/Menu_Card/ThaiKingPrawn/ThaiKingPrawn";
-import ThaiChicken from "../../Components/Menu_Card/ThaiChicken/ThaiChicken";
-import ThaiCrabVegetable from "../../Components/Menu_Card/ThaiCrab&Vegetable/ThaiCrabVegetable";
-import IndianPaneer from "../../Components/Menu_Card/IndianAppePapadamPaneer/IndianAppePapadamPaneer";
-import IndianSalad from "../../Components/Menu_Card/IndianSaladSeaFood/IndianSaladSeaFood";
-import IndianBiriyani from "../../Components/Menu_Card/IndianBiriyaniPulao/IndianBiriyaniPulao";
-import IndianCurry from "../../Components/Menu_Card/IndianCurry/IndianCurry";
-import IndianCurryMutton from "../../Components/Menu_Card/IndianCurryMutton/IndianCurryMutton";
-import IndianCurryPrawn from "../../Components/Menu_Card/IndianCurryPrawn/IndianCurryPrawn";
-import IndianCurryDal from "../../Components/Menu_Card/IndianCurryDal/IndianCurryDal";
-import IndianDosa from "../../Components/Menu_Card/IndianDosa/IndianDosa";
-import IndianNaan from "../../Components/Menu_Card/IndianNaan/IndianNaan";
-import IndianKebab from "../../Components/Menu_Card/IndianKebab/IndianKebab";
-import CaptainSpecial from "../../Components/Menu_Card/CaptainSpecial/CaptainSpecial";
-import IndianPizza from "../../Components/Menu_Card/IndianPizza/IndianPizza";
-import BroastChicken from "../../Components/Menu_Card/BroastChicken/BroastChicken";
-import IndianBurger from "../../Components/Menu_Card/IndianBurger/IndianBurger";
 import BeverageOne from "../../Components/Menu_Card/BeverageOne/BeverageOne";
 import BeverageTwo from "../../Components/Menu_Card/BeverageTwo/BeverageTwo";
+import BroastChicken from "../../Components/Menu_Card/BroastChicken/BroastChicken";
+import CaptainSpecial from "../../Components/Menu_Card/CaptainSpecial/CaptainSpecial";
+import IndianPaneer from "../../Components/Menu_Card/IndianAppePapadamPaneer/IndianAppePapadamPaneer";
+import IndianBiriyani from "../../Components/Menu_Card/IndianBiriyaniPulao/IndianBiriyaniPulao";
+import IndianBurger from "../../Components/Menu_Card/IndianBurger/IndianBurger";
+import IndianCurry from "../../Components/Menu_Card/IndianCurry/IndianCurry";
+import IndianCurryDal from "../../Components/Menu_Card/IndianCurryDal/IndianCurryDal";
+import IndianCurryMutton from "../../Components/Menu_Card/IndianCurryMutton/IndianCurryMutton";
+import IndianCurryPrawn from "../../Components/Menu_Card/IndianCurryPrawn/IndianCurryPrawn";
+import IndianDessert from "../../Components/Menu_Card/IndianDessertCard/IndianDessert";
+import IndianDosa from "../../Components/Menu_Card/IndianDosa/IndianDosa";
+import IndianKebab from "../../Components/Menu_Card/IndianKebab/IndianKebab";
+import IndianNaan from "../../Components/Menu_Card/IndianNaan/IndianNaan";
+import IndianPizza from "../../Components/Menu_Card/IndianPizza/IndianPizza";
+import IndianSalad from "../../Components/Menu_Card/IndianSaladSeaFood/IndianSaladSeaFood";
 import SetMenuOne from "../../Components/Menu_Card/SetMenuOne/SetMenuOne";
+import SpecialMenu from "../../Components/Menu_Card/SpecialMenu/SpecialMenu";
+import ThaiAppetizers from "../../Components/Menu_Card/ThaiAppetizers/ThaiAppetizers";
+import ThaiBeef from "../../Components/Menu_Card/ThaiBeef&Prawn/ThaiBeef&Prawn";
+import ThaiChicken from "../../Components/Menu_Card/ThaiChicken/ThaiChicken";
+import ThaiCrabVegetable from "../../Components/Menu_Card/ThaiCrab&Vegetable/ThaiCrabVegetable";
+import ThaiKingPrawn from "../../Components/Menu_Card/ThaiKingPrawn/ThaiKingPrawn";
+import ThaiNoodles from "../../Components/Menu_Card/ThaiNoodle&Rice/ThaiNoodle";
+import ThaiSalad from "../../Components/Menu_Card/ThaiSalad/ThaiSalad";
+import ThaiSoup from "../../Components/Menu_Card/ThaiSoup/ThaiSoup";
 import SetMenuOneCard from "../../Components/SetMenus/SetMenuOneCard";
 import SetMenuTwo from "../../Components/SetMenus/SetMenuTwoCard";
-import SpecialMenu from "../../Components/Menu_Card/SpecialMenu/SpecialMenu";
 import TimeTableCard from "../../Components/SetMenus/TimeTableCard";
+import "./menu.css";
 
 const Menu = () => {
   return (
+    <>
     <div>
       <p id="title">Menu</p>
       <div className="container">
@@ -275,12 +247,13 @@ const Menu = () => {
           />
         </div>
       </div>
-      <div className="container">
+    </div>
+    <div className="container center">
         <div className="left">
           <TimeTableCard />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

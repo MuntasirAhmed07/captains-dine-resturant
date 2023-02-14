@@ -1,7 +1,7 @@
 import React from "react";
-import "./navbar.css";
 import { NavLink } from "react-router-dom";
-import Svg from "./svg";
+import "./navbar.css";
+import Svgn from "./Svgn";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/">
-              <Svg />
+              <Svgn />
             </NavLink>
           </li>
           <li>

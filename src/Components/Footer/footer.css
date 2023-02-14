@@ -22,10 +22,11 @@ footer {
 .btn {
   background-color: #f09f45;
   height: 50px;
-  width: 50%;
-  padding: 1.1rem;
+  width: 120px;
+  padding: 1rem 1rem 1.5rem;
   margin: auto;
   color: white;
+  text-align: center;
 }
 
 .icon-wrapper {

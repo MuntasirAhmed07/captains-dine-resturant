@@ -1,6 +1,6 @@
-import "./home.css";
-import Hero from "../../Assets/hero1.jpg";
+import Hero from "../../Assets/images/hero1.jpg";
 import Carousel from "../../Components/Carousel/Carousel";
+import "./home.css";
 
 const Home = () => {
   return (
