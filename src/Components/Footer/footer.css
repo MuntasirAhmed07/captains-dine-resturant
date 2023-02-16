@@ -20,12 +20,10 @@ footer {
 }
 
 .btn {
-  background-color: #f09f45;
-  height: 50px;
-  width: 50%;
-  padding: 1.1rem;
-  margin: auto;
-  color: white;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .icon-wrapper {
