@@ -1,18 +1,17 @@
 import React from "react";
-// import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-// import InstagramIcon from "@mui/icons-material/Instagram";
-import Svg from "../Navbar/svg";
+
 import "./footer.css";
 import Facebook from "./Socials/Facebook";
 import Instagram from "./Socials/Instagram";
+import Svg from "./svg";
 
 const Footer = () => {
   return (
     <div>
       <footer>
         <div className="info-wrapper">
-          <div>
-            <div className="btn">Home</div>
+          <div className="mb-width">
+            <div className="btn home">Home</div>
             <div className="footer-content">
               <p>
                 We are open everyday from
@@ -21,7 +20,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="mb-width">
             <div className="btn">Location</div>
             <div className="footer-content">
               <p>
@@ -32,8 +31,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div>
-            <div className="btn">Contact</div>
+          <div className="mb-width">
+            <div className="btn contact">Contact</div>
             <div className="footer-content">
               <p>
                 01325-075222
@@ -47,7 +46,7 @@ const Footer = () => {
           <div>
             <Svg />
           </div>
-          <div style={{ paddingTop: "25px" }}>
+          <div className="rights" >
             © 2023 Captains Dine. All right reserved
           </div>
           <div className="socials">

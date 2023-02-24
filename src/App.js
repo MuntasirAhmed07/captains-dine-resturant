@@ -12,7 +12,9 @@ import Footer from "./Components/Footer/Footer";
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
+      <div className="nav-fixed">
+        <Navbar />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />

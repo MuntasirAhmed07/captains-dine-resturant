@@ -7,7 +7,6 @@ const TimeTableCard = (props) => {
     <div className="time-container">
       <div>
         <h3>{props.title}</h3>
-        <p>{props.item}</p>
         <div>
           <TimeTable />
         </div>

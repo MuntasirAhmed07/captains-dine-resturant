@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <div id="border">
-        <Marquee direction="right" speed={50} gradient={false} pauseOnHover={true}>
-
+        <Marquee direction="right" speed={80} gradient={false} >
+        {/* pauseOnHover={true} */}
           <div className="image_wrapper">
             <img src={img1} alt="" className="img-size" />
           </div>

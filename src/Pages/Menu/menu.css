@@ -1,23 +1,137 @@
-#title {
-  margin: 3rem 0;
+.title-menu {
+  margin: 7rem auto;
   font-size: 2rem;
 }
-
+.menu-container{
+  width: 1150px;
+  margin: 0 auto ;
+}
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 3rem;
 }
 
-.center{
-  justify-content: center;
-  align-items: center;
-}
-
 .left {
-  margin-left: 6rem;
+  margin-right: 1rem;
 }
 
 .right {
-  margin-right: 6rem;
+  margin-left: 1rem;
 }
+
+@media screen and (max-width: 960px) {
+  .title-menu {
+    margin-top: 6rem;
+  }
+  .menu-container{
+    width: 575px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+  .left {
+    margin-right: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: lightcoral; */
+
+  }
+  
+  .right {
+    margin-left: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: aqua; */
+
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .title-menu {
+    margin: 6rem auto 2rem ;
+  }
+  .menu-container{
+    width: 575px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+  .left {
+    margin-right: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: lightcoral; */
+
+  }
+  
+  .right {
+    margin-left: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: aqua; */
+
+  }
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  .title-menu {
+    margin-top: 6rem;
+  }
+  .menu-container{
+    width: 280px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+
+  .left {
+    margin-right: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: lightcoral; */
+
+  }
+  
+  .right {
+    margin-left: 0rem;
+    margin-top: 3rem;
+    /* width: 575px;
+    background-color: aqua; */
+
+  }
+  
+}
+
