@@ -43,9 +43,11 @@ import "./menu.css";
 
 const Menu = () => {
   return (
-    <>
     <div>
-      <p id="title">Menu</p>
+      <div className="title-menu">
+        <p >Menu</p>
+      </div>
+      <div className="menu-container">
       <div className="container">
         <div className="left">
           <ThaiAppetizers
@@ -247,13 +249,13 @@ const Menu = () => {
           />
         </div>
       </div>
-    </div>
-    <div className="container center">
+      <div className="container">
         <div className="left">
           <TimeTableCard />
         </div>
       </div>
-    </>
+    </div>
+    </div>
   );
 };
 

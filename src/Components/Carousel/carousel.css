@@ -17,3 +17,11 @@
   height: 40.882800608828006vh;
   width: 38.565153733528554vw;
 }
+
+
+@media screen and (max-width: 960px) {
+  .img-size {
+    height: 20.882800608828006vh;
+    width: 18.565153733528554vw;
+  }
+}

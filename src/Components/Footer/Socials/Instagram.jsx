@@ -2,7 +2,7 @@ import React from 'react'
 
 const Instagram = () => {
   return (
-    <div><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div><svg  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M18.0698 1.9502H7.20978C4.21088 1.9502 1.77979 4.38129 1.77979 7.38019V18.2402C1.77979 21.2391 4.21088 23.6702 7.20978 23.6702H18.0698C21.0687 23.6702 23.4998 21.2391 23.4998 18.2402V7.38019C23.4998 4.38129 21.0687 1.9502 18.0698 1.9502Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M16.9838 12.1261C17.1178 13.0299 16.9634 13.953 16.5426 14.764C16.1218 15.575 15.4559 16.2327 14.6398 16.6435C13.8236 17.0543 12.8987 17.1973 11.9966 17.0521C11.0945 16.907 10.2612 16.4811 9.6151 15.835C8.96902 15.1889 8.54311 14.3555 8.39795 13.4534C8.25279 12.5513 8.39577 11.6264 8.80657 10.8103C9.21736 9.99414 9.87504 9.3283 10.6861 8.90748C11.4971 8.48666 12.4201 8.33228 13.324 8.4663C14.2459 8.60301 15.0994 9.03261 15.7584 9.69164C16.4175 10.3507 16.8471 11.2042 16.9838 12.1261Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M18.6128 6.83716H18.6239" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

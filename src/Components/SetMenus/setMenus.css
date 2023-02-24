@@ -2,23 +2,21 @@
   background-color: #efefef;
   border: 1.7px solid #f09f45;
   height: 400px;
-  width: 1150px;
+  width: 1140px;
   padding-bottom: 1rem;
-  align-self: auto;
-  margin-right: 5rem;
-  margin-bottom: 10rem;
+  /* align-self: auto; */
+  /* margin-right: 5rem;
+  margin-bottom: 10rem; */
+  margin-left: 1rem ;
 }
 
 .time-container h3 {
   font-size: 23px;
   margin-top: 2rem;
-  font-family: "Aboreto", cursive;
 }
 
 .time-container p {
-  text-decoration: underline;
   padding: 1rem 0 0;
-  font-family: "Aboreto", cursive;
   font-size: 17px;
 }
 
@@ -62,3 +60,70 @@
 .setmenu2 li:first-child {
   margin: 1rem 0 !important;
 }
+
+
+@media screen and (max-width: 960px) {
+
+  .time-container {
+    background-color: #efefef;
+    border: 1.7px solid #f09f45;
+    height: 600px;
+    width: 550px;
+    padding-bottom: 1rem;
+    margin: auto;
+
+    /* align-self: auto; */
+    /* margin-right: 5rem;
+    margin-bottom: 10rem; */
+  }
+
+  .table-row{
+    font-size: 9px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .time-container {
+    background-color: #efefef;
+    border: 1.7px solid #f09f45;
+    height: 550px;
+    width: 480px;
+    padding-bottom: 1rem;
+    margin: auto;
+
+    /* align-self: auto; */
+    /* margin-right: 5rem;
+    margin-bottom: 10rem; */
+  }
+  
+  .time-container p {
+    padding: 1rem 0 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .time-container {
+    background-color: #efefef;
+    border: 1.7px solid #f09f45;
+    height: 400px;
+    width: 280px;
+    padding-bottom: 1rem;
+    margin: auto;
+
+    /* align-self: auto; */
+    /* margin-right: 5rem;
+    margin-bottom: 10rem; */
+  }
+  
+  .time-container p {
+    padding: 1rem 0 0;
+    font-size: 9px;
+  }
+  
+}
+
+
